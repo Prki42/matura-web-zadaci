@@ -1,0 +1,131 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header, nav {
+    background-color: #4b6c9e;
+    color: white;
+    display: flex;
+}
+
+header *{
+    padding: 1.5vh 30px 1.5vh 20px;
+}
+
+header div:first-child {
+    border-right: 1px solid white;    
+}
+
+nav {
+    justify-content: space-between;
+    padding: 2vh 0;
+}
+
+nav div:first-child {
+    margin-left: 20px;
+}
+
+nav div:last-child {
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    padding: 2px;
+}
+
+nav li a {
+    color: white;
+}
+
+main {
+    color: #4b6c9e;
+    margin: 2vh 5%;
+}
+
+#oautoru {
+    margin: 2vh 20px;
+}
+
+#pretraga-forma {
+    margin: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    max-width: 1000px;
+}
+
+#pretraga-forma hr {
+    margin-top: 1vh;
+    border-top: 3px solid gray;
+}
+
+#pretraga-tabela {
+    margin-top: 2vh;
+    width: 100%;
+}
+
+#pretraga-tabela input[type=submit] {
+    width: 75px;
+    padding: 10px;
+}
+
+#pretraga-tabela input[type=text] {
+    padding: 2px 1px;
+}
+
+#pretraga-tabela select {
+    min-width: 50px;
+}
+
+#pretraga-tabela td {
+    padding-bottom: 0.5vh;
+}
+
+#rezultat {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#TabelaPodaciPanel {
+    margin: auto;
+    max-width: 1000px;
+}
+
+#TabelaPodaciPanel table {
+    width: 100%;
+}
+
+#TabelaPodaciPanel :is(table, th, td) {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+#TabelaPodaciPanel table td {
+    padding: 2px;
+}
+
+#TabelaPodaciPanel table th {
+    color: white;
+    background-color: #4b6c9e
+}
+
+#vazni-telefoni {
+    padding-left: 20px;
+    margin-top: 1vh;
+}
+
+#vazni-telefoni li {
+    margin-top: 0.5vh;
+}
