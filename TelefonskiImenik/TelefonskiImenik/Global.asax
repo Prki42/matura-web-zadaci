@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="PrtenjacATelefonskiImenik.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="TelefonskiImenik.Global" Language="C#" %>
